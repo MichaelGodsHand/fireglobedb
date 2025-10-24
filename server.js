@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 // Configuration
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 const LIGHTHOUSE_API_KEY = process.env.LIGHTHOUSE_API_KEY;
 const BACKEND_URL = process.env.BACKEND_URL || 'https://backend-739298578243.us-central1.run.app';
 const METRICS_URL = process.env.METRICS_URL || 'https://metricsgen-739298578243.us-central1.run.app';
